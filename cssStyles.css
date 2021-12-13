@@ -1,0 +1,41 @@
+body{
+  background: url("bgok.jpg");
+}
+.heading{
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.btn {
+  width: 110px;
+  height: 75px;
+  padding: 10px;
+  background-color: aqua;
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  margin:0 auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button{
+  margin: 0 auto;
+  text-align: center;
+  height: 400px;
+  position: relative;
+}
+.btn:hover {
+  background-color: rgba(0, 255, 0, 0.3);
+  color: blueviolet;
+  text-transform: initial;
+  transform: scale(1.1);
+  transition: ease all 1s;
+  border-radius: 20px 0px 20px 0px;
+}
+
+.back {
+  background-color: green;
+}
+
+.btn:active {
+  transform: translate(5px, 5px);
+  cursor: progress;
+}
